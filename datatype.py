@@ -1,76 +1,41 @@
-print("Hello world.!!")
-#integer
-a=21
-print("a=",a)
-print("datatype of a:",type(a))
+a="Hello World!"
+print(a)
 
-#float
-b=30.5
-print("\nb=",b)
-print("datatype of b:",type(b))
+b=20
+print(b)
 
-#string
-c="Hello python"
-print("c=",c)
-print("datatype of c:",type(c))
+c=12.5
+print(c)
 
-#complex
-d=ij
-print("\nd=",d)
-print("dayatype of d:",type(d))
+d=["apple","banana","cherry"]
+print(d)
 
-#list
-e=["apple","banana","Cherry"]
-print("\ne=",e)
-print("datatype of e:",type(e))
+e=("apple","banana","cherry")
+print(e)
 
-#tuple
-f=["Mahi","diya","navya"]
-print("\nf=",f)
-print("datatype of f:",type(f))
+f=range(5)
+print(f)
 
-#range
-g=range(6)
-print("\ng=",g)
-print("datatype of g:",type(g))
+g={"Name":"johan","age":36}
+print(g)
 
-#dict
-h=("name:mahi","age:18")
-print("\nh=",h)
-print("datatype of h:",type(h))
+h={"apple","banana","cheryy"}
+print(h)
 
-#set
-i={"apple","banana","cherry"}
-print("\ni=",i)
-print("datatype of i:",type(i))
+i=({"apple","banana","cherry"})
+print(i)
 
-#frozenset
-j({"apple","banana","cherrey"})
-print("\nj=",j)
-print("datatype of j:",type(j))
+j=True
+print(j)
 
-#Boolean
-k=true
-print("\nk",k)
-print("datatype of k:",type(k))
+k=b"Hello"
+print(k)
 
-#bytes
-l=b"hello"
-print("\nl",l)
-print("datatype of l:",type(l))
+l=bytearray(5)
+print(l)
 
-#bytearray
-m=bytearray(5)
-print("\nm=",m)
-print("datatype of m:",type(m))
+m=memoryview(bytes(5))
+print(m)
 
-#memoryview
-n=memoryview(bytes(5))
-print("\nn=",n)
-print("datatype of n:",type(n))
-
-#nonetype
-o=none
-print("\no=",type(o))
-print("datatype of o:",type(o))
-
+n=none
+print(n)
